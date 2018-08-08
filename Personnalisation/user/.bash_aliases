@@ -1,0 +1,5 @@
+alias auu='apt update && apt upgrade'
+alias lh='ls $LS_OPTIONS -lAhCF'
+alias sst='systemctl status $SYSTEMCTL_OPTIONS'
+alias sr='systemctl restart $SYSTEMCTL_OPTIONS'
+alias st='systemctl stop $SYSTEMCTL_OPTIONS'
