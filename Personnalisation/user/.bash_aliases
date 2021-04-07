@@ -1,4 +1,5 @@
 alias auu='apt update && apt dist-upgrade -yy && apt upgrade -yy && apt autoremove && apt autoclean'
+alias pip_update_all='/usr/bin/python3 -m pip install --upgrade pip && pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
 alias lh='ls $LS_OPTIONS -lahCF'
 alias l='ls $LS_OPTIONS -laF'
 alias sst='systemctl status $SYSTEMCTL_OPTIONS'
